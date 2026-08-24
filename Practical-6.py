@@ -1,21 +1,4 @@
-# =========================================================
-# Matrix Chain Multiplication using Dynamic Programming
-#
-# Time Complexity:
-# Best Case    : O(n^3)
-# Average Case : O(n^3)
-# Worst Case   : O(n^3)
-#
-# Space Complexity:
-# O(n^2)
-#
-# Where:
-# n = Number of matrices
-#
-# Note:
-# Finds the minimum number of scalar multiplications
-# required to multiply a chain of matrices.
-# =========================================================
+
 
 INF = float('inf')
 
