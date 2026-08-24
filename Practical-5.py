@@ -1,18 +1,4 @@
-# =========================================================
-# 0/1 Knapsack using Dynamic Programming
-#
-# Time Complexity:
-# Best Case    : O(n * W)
-# Average Case : O(n * W)
-# Worst Case   : O(n * W)
-#
-# Space Complexity:
-# O(n * W)
-#
-# Where:
-# n = Number of items
-# W = Maximum capacity of knapsack
-# =========================================================
+
 
 def knapsack(wt, val, n, W):
     # Create DP table
