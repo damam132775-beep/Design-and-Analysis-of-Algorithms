@@ -1,17 +1,4 @@
-# =========================================================
-# Sorting Algorithms in Python
-# =========================================================
 
-# =========================================================
-# Bubble Sort
-# Time Complexity:
-# Best Case    : O(n)
-# Average Case : O(n^2)
-# Worst Case   : O(n^2)
-#
-# Space Complexity:
-# O(1)
-# =========================================================
 def bubble_sort(arr):
     n = len(arr)
 
@@ -21,16 +8,6 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
 
-# =========================================================
-# Selection Sort
-# Time Complexity:
-# Best Case    : O(n^2)
-# Average Case : O(n^2)
-# Worst Case   : O(n^2)
-#
-# Space Complexity:
-# O(1)
-# =========================================================
 def selection_sort(arr):
     n = len(arr)
 
@@ -44,16 +21,6 @@ def selection_sort(arr):
         arr[i], arr[min_index] = arr[min_index], arr[i]
 
 
-# =========================================================
-# Insertion Sort
-# Time Complexity:
-# Best Case    : O(n)
-# Average Case : O(n^2)
-# Worst Case   : O(n^2)
-#
-# Space Complexity:
-# O(1)
-# =========================================================
 def insertion_sort(arr):
     n = len(arr)
 
@@ -68,16 +35,6 @@ def insertion_sort(arr):
         arr[j + 1] = key
 
 
-# =========================================================
-# Merge Sort
-# Time Complexity:
-# Best Case    : O(n log n)
-# Average Case : O(n log n)
-# Worst Case   : O(n log n)
-#
-# Space Complexity:
-# O(n)
-# =========================================================
 def merge(arr, left, mid, right):
     temp = []
     i = left
@@ -112,16 +69,6 @@ def merge_sort(arr, left, right):
         merge(arr, left, mid, right)
 
 
-# =========================================================
-# Quick Sort
-# Time Complexity:
-# Best Case    : O(n log n)
-# Average Case : O(n log n)
-# Worst Case   : O(n^2)
-#
-# Space Complexity:
-# O(log n) (Recursion Stack)
-# =========================================================
 def partition(arr, low, high):
     pivot = arr[high]
     i = low - 1
