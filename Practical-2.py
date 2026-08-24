@@ -1,18 +1,4 @@
-# =========================================================
-# Search Algorithms in Python
-# =========================================================
 
-# =========================================================
-# Linear Search
-#
-# Time Complexity:
-# Best Case    : O(1)
-# Average Case : O(n)
-# Worst Case   : O(n)
-#
-# Space Complexity:
-# O(1)
-# =========================================================
 def linear_search(arr, key):
     for i in range(len(arr)):
         if arr[i] == key:
@@ -20,20 +6,6 @@ def linear_search(arr, key):
     return -1
 
 
-# =========================================================
-# Binary Search
-#
-# Note:
-# Array must be sorted in ascending order.
-#
-# Time Complexity:
-# Best Case    : O(1)
-# Average Case : O(log n)
-# Worst Case   : O(log n)
-#
-# Space Complexity:
-# O(1)
-# =========================================================
 def binary_search(arr, key):
     low = 0
     high = len(arr) - 1
