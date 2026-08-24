@@ -1,19 +1,4 @@
-# =========================================================
-# Factorial in Python
-# =========================================================
 
-# =========================================================
-# Iterative Factorial
-#
-# Time Complexity:
-# Best Case    : O(n)
-# Average Case : O(n)
-# Worst Case   : O(n)
-#
-# Space Complexity:
-# O(1)
-# =========================================================
-def iterative_factorial(n):
     fact = 1
 
     for i in range(1, n + 1):
@@ -22,20 +7,6 @@ def iterative_factorial(n):
     return fact
 
 
-# =========================================================
-# Recursive Factorial
-#
-# Time Complexity:
-# Best Case    : O(n)
-# Average Case : O(n)
-# Worst Case   : O(n)
-#
-# Space Complexity:
-# O(n)
-#
-# Note:
-# Recursive method uses the function call stack.
-# =========================================================
 def recursive_factorial(n):
     if n == 0 or n == 1:
         return 1
